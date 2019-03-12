@@ -20,6 +20,9 @@ https://morizyun.github.io/blog/pry-command-rails-ruby/index.html
 現在のスコープで利用可能なメソッド、変数、定数を確認
 - `cd`  
 オブジェクトやクラスへの移動
+- ファイルを呼び出す
+`require './Practice.rb'`
+
 
 ## pry-doc 
 ---
