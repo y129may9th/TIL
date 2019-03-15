@@ -9,13 +9,15 @@ https://qiita.com/hujuu/items/3d600f2b2384c145ad12
 ## rbenv
 - バージョンを切り替えるツール
 - Homebrewからインストール出来る  
-`brew install rbenv`
-`rbenv --version`
+`$ brew install rbenv`  
+`$ rbenv --version`
 
 
 ## ruby
-- ruby のバージョンをみる  
-`rbenv versions`
+- インストール済みのrubyバージョンをみる  
+`$ rbenv versions`
+- カレントディレクトリの有効なRubyバージョンをみる  
+`$ rbenv nersion`
 
 - install  
 `rbenv install 2.5.1`
@@ -36,4 +38,6 @@ https://qiita.com/hujuu/items/3d600f2b2384c145ad12
 `=> /usr/bin/ruby`
 
 
-
+## postgleSQL
+- Mac+HomebrewでPostgreSQLが起動しない場合の対応
+https://techracho.bpsinc.jp/hachi8833/2017_12_21/48661
