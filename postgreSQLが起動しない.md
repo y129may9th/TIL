@@ -75,31 +75,8 @@ homebrew	log
 ### インストール
 ```
 $ brew install postgresql
-Updating Homebrew...
-==> Auto-updated Homebrew!
-Updated 2 taps (heroku/brew and homebrew/core).
-==> Updated Formulae
-heroku/brew/heroku ✔    dnscrypt-proxy          jasper                  node-build              template-glib           v8
-ruby-build ✔            double-conversion       jsonrpc-glib            octave                  thors-serializer
-bitrise                 exploitdb               libdazzle               ruby                    tmux-xpanes
-caddy                   gexiv2                  libyaml                 ruby@2.5                tomcat@8
-chakra                  gnome-builder           mesa                    serverless              topgrade
-crowdin                 imagemagick             minio-mc                sundials                unbound
 
-==> Downloading https://homebrew.bintray.com/bottles/postgresql-11.2.high_sierra.bottle.tar.gz
-######################################################################## 100.0%
-==> Pouring postgresql-11.2.high_sierra.bottle.tar.gz
-==> /usr/local/Cellar/postgresql/11.2/bin/initdb /usr/local/var/postgres
-==> Caveats
-To migrate existing data from a previous major version of PostgreSQL run:
-  brew postgresql-upgrade-database
-
-To have launchd start postgresql now and restart at login:
-  brew services start postgresql
-Or, if you don't want/need a background service you can just run:
-  pg_ctl -D /usr/local/var/postgres start
-==> Summary
-🍺  /usr/local/Cellar/postgresql/11.2: 3,186 files, 35.5MB
+🍺
 ```
 
 - コマンドが存在するか
@@ -133,6 +110,6 @@ postgres=# exit
 ```
 
 
-
-https://techracho.bpsinc.jp/hachi8833/2017_12_21/48661
+- 参考
+https://techracho.bpsinc.jp/hachi8833/2017_12_21/48661  
 https://qiita.com/DaikiandNatsu/items/135f53844524417fa605
