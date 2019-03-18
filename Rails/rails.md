@@ -2,7 +2,7 @@
 - bundle install にでてくる`warning`をためすと直った
 
 - Puma  
-HTTPサーバ
+HTTPサーバ  
 Webサーバの機能を備えるAPサーバ（Tomcatも）
 
 - bundle excec rails generate...  
