@@ -3,6 +3,7 @@
 
 - Puma  
 HTTPサーバ
+Webサーバの機能を備えるAPサーバ（Tomcatも）
 
 - bundle excec rails generate...  
 bin/rails generate....
