@@ -26,7 +26,7 @@ migration controller　作成可能
 `be g controller tasks [action sction ...] [option] `
 - 個別にルーティングを設定してくれる（自動）
 `config/routes.rb`
-- 一括ルーティング
+- 各アクションを一括ルーティング
 `resources :tasks`
 
 
