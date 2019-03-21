@@ -38,9 +38,15 @@ To push the current branch and set the remote as upstream, use
 
 ## master
 [[git reset (--hard/--soft)]ワーキングツリー、インデックス、HEADを使いこなす方法](https://qiita.com/shuntaro_tamura/items/db1aef9cf9d78db50ffe)
-- masterに移動  (削除コミットがある…)  
+- masterに移動  
+    - ローカルのリポジトリのmasterには削除コミットがある
+        -> さっきコミットまでしたから
+    - リモートのmasterには削除コミットは無い
+        -> pushできなかったから
 `$ git checkout master`
-- (master) 92c0b5bの状態に戻す    
+- (master) 92c0b5bの状態に戻す
+    -> リモートで削除コミットをマージしたmasterブランチがある
+    -> 状態を戻しておかないとコンフリクトする
 ```
 $ git log --oneline  
 39c47e1 (HEAD -> master, origin/remove/file, remove/file) delete textfile
@@ -60,8 +66,7 @@ g log --oneline`
 - Pull/Request 作業
 - 削除コミットをマージしてもらう
 
-- Margeされた物をローカルにpull
-    - リモートでは既にマージ されている
+- (Marge済み) リモートのmaster buranch -> ローカルのmaster branchにpull
 `$ g pull`
 
 ```
