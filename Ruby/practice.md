@@ -18,3 +18,13 @@ Gold Ono
 Silver Orujov
 Bronze Shavdatuashvili
 ```
+
+---
+```
+t = []
+s = gets.split(" ").map(&:to_s)
+s.each do |str|
+    t.push(str[0])
+end
+puts t.join(".")
+```
