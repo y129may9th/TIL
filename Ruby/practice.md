@@ -28,3 +28,9 @@ s.each do |str|
 end
 puts t.join(".")
 ```
+
+```
+# input
+input = gets.split(" ").map(&:to_i)
+puts input[0] - input[1]
+```
