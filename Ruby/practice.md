@@ -34,3 +34,9 @@ puts t.join(".")
 input = gets.split(" ").map(&:to_i)
 puts input[0] - input[1]
 ```
+```
+input = gets.to_i
+sweets = gets.split(" ").map(&:to_i)
+total = sweets[0]*sweets[1]
+puts total%input
+```
