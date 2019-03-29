@@ -13,6 +13,7 @@
 - Docker
   - アプリケーションと実行環境を統合的に管理する
   
+[入門 Docker](https://y-ohgi.com/introduction-docker/)
 ## Immutable Infrastructure
 
 - インフラを不変なものとして扱う
@@ -53,4 +54,42 @@
   `$ docker pull ubuntu`
 
 - さらにbashの中に入る（コマンド打てる）  
+
+## Docker File
+
+- Docker Imageを作成するツール
+- Dockerfile -> ビルド -> スナップショット作成 (DockerImage)
+
+## Docker Container
+
+- スナップショットから起動したプロセス
+- docker run -> docker Image -> Docker Container
+- 状態5つ（IMAGE, RUNNING, STOPPING, PAUSED, DELETED）
+
+## NetWork
+
+- １コンテナ１プロセス
+- 複数プロセス -> ネットワークを使用
+
+## オーケストレーションツール
+
+- 復数のDockerを動かすためツール
+  - Dockerの管理/自動復旧
+  - ネットワーク管理
+  - オートスケール
+  - 本番のワークロードに必要な機能
+
+- ### docker-compose
+
+  Docker社がホストするオーケストレーションツール
+
+  ローカルでdockerを動かす際のデファクトスタンダードとなっているツール
+
+- ### Kubernetes
+
+  Google社が開発したOSSのオーケストレーションツール
+
+  自由度が高く豊富なエコシステムがあり、コミュニティも非常に活発
+
+
   
