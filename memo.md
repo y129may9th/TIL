@@ -1,4 +1,2 @@
-- bundle install(bundle)
 - bash fail
 - dot fails
-- bundle exec rails 
