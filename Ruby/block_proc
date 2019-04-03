@@ -1,0 +1,8 @@
+## Block
+do-end({…})で囲まれた引数となるためのカタマリ
+- 単体では利用できない（メソッドの引数）
+
+## proc
+- blockをオブジェクト化したもの
+
+[Ruby block/proc/lambdaの使いどころ](https://qiita.com/kidach1/items/15cfee9ec66804c3afd2)
