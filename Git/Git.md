@@ -22,5 +22,6 @@
 [難しいGitコマンドは、仕組みから理解してみよう](https://qiita.com/_ha1f/items/2dca1047c57d4f0bd465#%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B)  
 [Gitを勉強するときに役立ったもの](https://kimromi.hatenablog.jp/entry/2015/08/11/043138)  
 [Git初心者が見るべきサイトまとめ](https://matome.naver.jp/odai/2136491451473222801)  
-https://www.kaitoy.xyz/2015/12/27/git-repository/
+[Gitのリポジトリの中身をなるべく正確に理解する](https://www.kaitoy.xyz/2015/12/27/git-repository/)
+[Git超絶まとめ](https://qiita.com/masashi127/items/2e103c3fba9d1b058961#%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%BF%9D%E5%AD%98%E9%A0%98%E5%9F%9F)
 
