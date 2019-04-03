@@ -42,8 +42,8 @@ To push the current branch and set the remote as upstream, use
 
 ## master
 [[git reset (--hard/--soft)]ワーキングツリー、インデックス、HEADを使いこなす方法](https://qiita.com/shuntaro_tamura/items/db1aef9cf9d78db50ffe)
-- 状態
-    master と remove/file は同じコミット(39c47e1 delete textfile)を指している
+- 状態  
+   master と remove/file は同じコミット(39c47e1 delete textfile)を指している
 ```
 $ git log --oneline  
 39c47e1 (HEAD -> master, origin/remove/file, remove/file) delete textfile
