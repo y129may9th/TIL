@@ -4,7 +4,7 @@
 -> まとめて名前をつける  
 -> カスタムのクエリ用メソッド  
 
-- modelに定義 
+- modelに定義  
 `scope :recent, -> { order(created_at: :desc) }`
   
 `tasks = Task.recent`  
