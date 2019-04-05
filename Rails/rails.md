@@ -22,11 +22,11 @@ migration controller　作成可能
 `be rails db:migrate`  
 
 ##  コントローラーとビュー
-- コントローラーのgeneratorでアクションを指定すると、アクションと同名のビューもできる
+- コントローラーのgeneratorでアクションを指定すると、アクションと同名のビューもできる  
 `be g controller tasks [action sction ...] [option] `
-- 個別にルーティングを設定してくれる（自動）
+- 個別にルーティングを設定してくれる（自動）  
 `config/routes.rb`
-- 各アクションを一括ルーティング
+- 各アクションを一括ルーティング  
 `resources :tasks`
 
 
