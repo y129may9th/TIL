@@ -1,7 +1,0 @@
-- DB
-- Model
-- View
-- Controller
-- Feature
-	- Login/Logout
-- Error
