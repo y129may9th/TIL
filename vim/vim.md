@@ -9,13 +9,19 @@ https://qiita.com/lighttiger2505/items/bf4755cd912f7272ba60
 `ls -laFG`
 
 - bash起動時に実行されるファイル  
-`~/.bashrm`
-
+`~/.bashrc`
 - vimもおなじ  
 `~/.vimrc`
-
-- 変更したファイルを反映させる（再立ち上げでもいいが、できない時のため）
+- 変更したファイルを反映させる（再立ち上げでもいいが、できない時のため）  
 `source ~/.bashrc` 
+- ターミナル起動時に自動で読み込ませる
+HOMEに`.bash_profile`を作成
+```
+if [ -f ~/.bashrc ] ; then
+. ~/.bashrc
+fi
+```
+
 
 - `:vs`  
 vimで開いているページを分割
