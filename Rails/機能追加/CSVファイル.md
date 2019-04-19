@@ -44,5 +44,8 @@ CSVデータの入力機能を追加
     指定した安全なキーに対応するデータだけを取り出して、入力に使う
     - sliceの引数
     csv_aattributesメソッドの戻り値の配列  
-1. Controller
+1. Controller  
+    import メソッド 追加  
+1. routes
+1. View
 
