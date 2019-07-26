@@ -13,7 +13,7 @@ https://brew.sh/index_ja
 
 ## `brew doctor`でエラーが出る
 1. homebrew 再インストール
-1. `$ brew update && brew upgread && brew cleanup`
+1. `$ brew update && brew upgrade && brew cleanup`
 
 [homebrewで/usr/local/のパーミッションエラーが出る場合の対応](https://qiita.com/k-hotta/items/7236f68ef26f7771b02f)
  
