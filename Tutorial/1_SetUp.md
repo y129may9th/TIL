@@ -15,14 +15,17 @@
 - be rails new .
 - be rails s
 
+## 立ち上げる (port指定)
 - $ lsof -i:3000
 - $ be rails s -p 3001
 
+## heroku
 - $ git add
 - $ git push
 - $ heroku create
 - $ git push heroku master
 - $ heroku open
 
+## heroku で error
 - $ heroku run rails console
 
