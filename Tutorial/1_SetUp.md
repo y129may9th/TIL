@@ -9,10 +9,10 @@
 - Rails 
 5.1.6
 - bundle install --path vendor/bundle
+- be rails new .
 - Gemfile修正
 - bundle install --without production
 - bundle update
-- be rails new .
 - be rails s
 
 ## 立ち上げる (port指定)
