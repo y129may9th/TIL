@@ -21,7 +21,7 @@ $ git checkout -b <branch> upstream/master
 
 # リポジトリから新規にブランチを持って来る
 ```
-$ git checkout -b new_branch upstream/new_branch_name
+$ git checkout -b new_branch upstream/new_branch_name(tool)
 
 $git pull upstream new_branch_name
 
@@ -37,9 +37,11 @@ $ git fetch --prune
 
 
 # 新規にブランチを作るとき
+- 自分の作業ブランチを確認する（*new_branch）
 ```
-$ git branch new-branch --track upstream/remote-branch-name
+$ git branch new-branch-plus --track upstream/remote-branch-name
 
 ```
 [Git用語：上流ブランチとは？](http://www-creators.com/archives/4931)
 [怖くない！ Git for Web Developers](https://ameblo.jp/ca-1pixel/entry-11658373787.html)
+[](https://web-nari.net/2018/04/15/explanatino-git-operation-flow/)
