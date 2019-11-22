@@ -59,13 +59,13 @@ KEYをコピーして貼り付け
 
 - クラスタ変更・追加
 
-`$ aws eks --region ap-northeast-1 update-kubeconfig --name ferret-staging-cluster`
+`$ aws eks --region <リージョン> update-kubeconfig --name <クラスタ名>`
 
 コンテキストの向き先確認
 ```
 $ kubectx
 
-$ aws eks --region ap-northeast-1 update-kubeconfig --name ferret-production-cluster
+$ aws eks --region ap-northeast-1 update-kubeconfig --name <cluster>
 
 $ kubectl get pods
 
