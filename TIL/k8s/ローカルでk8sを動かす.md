@@ -74,7 +74,7 @@ $ kubectl exec -it production-cluster -c app bash
 [Kubernetesを手元で試せる「Minikube」「MicroK8s」とは](https://www.atmarkit.co.jp/ait/articles/1905/23/news006.html)
 
 
-
+---
 # rails c
 ```
 Show routs -G hoge hogez
