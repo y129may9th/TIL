@@ -154,3 +154,5 @@ https://blog.hmatoba.net/Article/156
 
 data.unpack("C*").map {|c| '%d' % c }.join(' ')
 => "16 0 0 0 10 4 0 33 4 0"
+
+[GIF vs APNG vs WebP](http://littlesvr.ca/apng/gif_apng_webp.html)
