@@ -9,9 +9,24 @@
 ーーーーーーーーー
 ## オープンクラス
 - 既存のクラスに機能を追加
-    - prime 
-    - active saport 
+    - prime
+    - active saport
 
+```ruby
+class Foo
+   def foo
+     puts 'foo'
+   end
+ end
+class Foo
+  def bar
+    puts 'bar'
+  end
+end
+
+> Foo.instance_methods(false)
+=> [:foo, :bar]
+```
 - ブロック
 関数型言語
 proc ブロックの正体
